@@ -268,13 +268,17 @@ tbody tr:nth-child(odd) th {
   }
 }
 
+.headings {
+  color: #00CDCD;
+}
+
 .masthead {
 
   &-title {
     font-weight: 300;
 
     a {
-      color: #333;
+      color: #00CDCD;
 
       &:hover,
       &:focus {
@@ -295,7 +299,7 @@ tbody tr:nth-child(odd) th {
     text-transform: uppercase;
 
     a {
-      color: #333;
+      color: #00CDCD;
 
       &:hover,
       &:focus {
@@ -317,7 +321,7 @@ tbody tr:nth-child(odd) th {
 
       &:hover,
       &:focus {
-        color: #333;
+        color: #00CDCD;
         text-decoration: none;
       }
 
@@ -351,7 +355,7 @@ tbody tr:nth-child(odd) th {
     margin-bottom: .25rem;
 
     a {
-      color: #333;
+      color: #00CDCD;
 
       &:hover,
       &:focus {
@@ -368,7 +372,7 @@ tbody tr:nth-child(odd) th {
 
 .projects-list {
   a {
-    color: #333;
+    color: #00CDCD;
   }
 }
 
