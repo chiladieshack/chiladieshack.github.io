@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -256,14 +256,14 @@ tbody tr:nth-child(odd) th {
 section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   text-align: center;
 }
 
 section#splash {
-  padding-top: 2rem;
-  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -288,7 +288,7 @@ section#splash {
 }
 
 .logo {
-  width: 80%;
+  width: 55%;
   height: auto;
   margin: auto;
 
@@ -297,8 +297,15 @@ section#splash {
   }
 }
 
+.sponsor {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  display: inline;
+  padding: 2rem;
+}
+
 #navbar {
-    // background-color: #00CDCD;
     text-transform: uppercase;
     font-size: 1em;
     text-align: center;
@@ -345,7 +352,7 @@ font-weight: bold;
 
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 40%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
