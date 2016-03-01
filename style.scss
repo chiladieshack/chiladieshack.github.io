@@ -310,6 +310,22 @@ section#header {
   margin: auto;
   display: inline;
   padding: 2rem;
+
+  @media (max-width: 1000px) {
+    width: 11rem;
+    height: auto;
+    margin: auto;
+    display: inline;
+    padding: 2rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 10rem;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+  }
 }
 
 #navbar {
@@ -361,8 +377,15 @@ section#header {
   color: rgba(92, 195, 74, 0.75);
 }
 
+#sponsors h1 {
+  // color: rgba(92, 195, 74, 0.75);
+  color: rgba(126,0,205,0.93);
+}
+
 #coc {
   background-color: rgba(92, 195, 74, 0.75);
+  color: white;
+  weight: bold;
 }
 
 .item {
