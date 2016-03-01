@@ -24,11 +24,6 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 # Navigation
-nav:
-  - name:           "Projects"
-    href:           "http://127.0.0.1:4000/projects"
-  - name:           "Schedule"
-    href:           "http://127.0.0.1:4000/schedule"
 
 # Sass
 sass:

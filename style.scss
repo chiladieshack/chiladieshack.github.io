@@ -46,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.1;
-  color: #333;
+  color: white;
   letter-spacing: -.025rem;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 h2 {
@@ -253,23 +253,108 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+section#splash {
+  padding-top: 2rem;
+  padding-bottom: 0.1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .lead {
   font-size: 1.25rem;
 }
 
 .container {
-  max-width: 38rem;
-  padding: 2rem 1.5rem;
+  // max-width: 45rem;
+  // padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
-
-  @media (min-width: 38rem){
-    padding: 5rem 1rem;
-  }
+  //
+  // @media (min-width: 38rem){
+  //   padding: 5rem 1rem;
+  // }
 }
 
 .headings {
   color: #00CDCD;
+}
+
+.logo {
+  width: 80%;
+  height: auto;
+  margin: auto;
+
+  @media (min-width: 38rem){
+    // padding: 5rem 1rem;
+  }
+}
+
+#navbar {
+    // background-color: #00CDCD;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    border: 0;
+}
+
+#about {
+  background-color: #00CDCD;
+  color: white;
+}
+
+#about h1 {
+  color: white;
+}
+
+#projects {
+  background-color: rgb(205, 0, 96);
+  color: white;
+}
+
+#map {
+  overflow:hidden;
+  height:500px;
+  width:100%;
+  margin-left: auto;
+}
+
+#location h1 {
+  color: rgba(92, 195, 74, 0.75);
+}
+
+#coc {
+  background-color: rgba(92, 195, 74, 0.75);
+}
+
+.item {
+  width: 9em;
+padding-top: 1.2em;
+margin-left: 4em;
+border-bottom: 4px solid transparent;
+color: #00CDCD;
+font-weight: bold;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .masthead {
