@@ -32,12 +32,12 @@ body {
 }
 
 a {
-  color: #268bd2;
+  color: #00CDCD;
   text-decoration: none;
 
   &:hover,
-  &:focus {
-    text-decoration: underline;
+ {
+    color: rgba(126, 0, 205, 0.93);
   }
 }
 
@@ -276,6 +276,11 @@ section#splash {
   padding-right: 3rem;
 }
 
+section#header {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
 .lead {
   font-size: 1.25rem;
 }
@@ -321,6 +326,14 @@ section#splash {
 
 #about h1 {
   color: white;
+}
+
+#about a {
+  // color: rgba(126, 0, 205, 0.93);
+  color: white;
+  &:hover{
+    color: rgba(126, 0, 205, 0.93);
+  }
 }
 
 #projects {
