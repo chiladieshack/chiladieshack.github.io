@@ -114,6 +114,11 @@ ol {
   }
 }
 
+tr, td {
+  text-align: left;
+  padding-right: 1.8rem;
+}
+
 p + h1,
 p + h2,
 p + h3,
@@ -337,6 +342,18 @@ section#header {
 #projects {
   background-color: rgb(205, 0, 96);
   color: white;
+}
+
+section#projects-page {
+  padding-left: 6em;
+  padding-right: 6rem;
+  background-color: rgb(205, 0, 96);
+  color: white;
+}
+
+.project-title {
+  font-size: 2rem;
+  text-align: right;
 }
 
 #map {
