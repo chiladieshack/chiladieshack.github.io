@@ -368,7 +368,24 @@ section#header {
   background-color: rgba(92, 195, 74, 0.85);
   weight: bold;
   height: 1rem;
+
+  @media(max-width: 800px) {
+    height: 4rem;
+    padding-top: 1.5rem;
+  }
 }
+
+.footer-text {
+  font-size: 0.8rem;
+  color: white;
+}
+
+p .footer-text{
+  @media(max-width: 400px) {
+    margin: 0;
+  }
+}
+
 
 #coc {
   background-color: rgba(92, 195, 74, 0.85);
