@@ -246,8 +246,8 @@ section {
   @media (max-width: 800px){
     padding-top: 1rem;
     padding-bottom: 0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
   }
 }
 
@@ -364,16 +364,16 @@ section#header {
   color: rgba(126,0,205,0.93);
 }
 
-#coc {
-  background-color: rgba(92, 195, 74, 0.85);
-  color: white;
-  weight: bold;
-}
-
 #footer {
   background-color: rgba(92, 195, 74, 0.85);
   weight: bold;
   height: 1rem;
+}
+
+#coc {
+  background-color: rgba(92, 195, 74, 0.85);
+  color: white;
+  weight: bold;
 }
 
 .coc-content {
@@ -381,6 +381,12 @@ section#header {
   padding-left: 10rem;
   padding-right: 4rem;
   margin: auto;
+
+  @media (max-width: 900px) {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .item {
