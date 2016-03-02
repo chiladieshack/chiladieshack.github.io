@@ -114,9 +114,14 @@ ol {
   }
 }
 
-tr, td {
+table {
+  margin: auto;
+}
+
+td {
   text-align: left;
   padding-right: 1.8rem;
+  width: 50%;
 }
 
 p + h1,
@@ -344,20 +349,28 @@ section#header {
   color: white;
 }
 
-section#projects-page {
-  padding-top: 0rem;
-  padding-left: 8em;
-  padding-right: 8rem;
+#project-header {
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+}
+
+#project-header h1 {
+  color: rgb(205, 0, 96);
+}
+
+section#project-list {
+  padding-left: 6em;
+  padding-right: 6rem;
   background-color: white;
   color: rgb(205, 0, 96);
 
 }
 
-#projects-page h1, a {
+#project-list h1, a {
   color: rgb(205, 0, 96);
 }
 
-#projects-page a:hover {
+#project-list a:hover {
   color: #00CDCD;
 }
 
