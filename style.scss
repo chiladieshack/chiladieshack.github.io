@@ -469,6 +469,10 @@ p .footer-text{
     height: 100% !important;
 }
 
+.scrolloff {
+       pointer-events: none;
+}
+
 .masthead {
 
   &-title {
