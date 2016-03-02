@@ -345,10 +345,20 @@ section#header {
 }
 
 section#projects-page {
+  padding-top: 0rem;
   padding-left: 8em;
   padding-right: 8rem;
-  background-color: rgb(205, 0, 96);
-  color: white;
+  background-color: white;
+  color: rgb(205, 0, 96);
+
+}
+
+#projects-page h1, a {
+  color: rgb(205, 0, 96);
+}
+
+#projects-page a:hover {
+  color: #00CDCD;
 }
 
 .project-title {
