@@ -118,7 +118,7 @@ table {
   margin: auto;
 }
 
-td {
+th, td {
   text-align: left;
   padding-right: 1.8rem;
   width: 50%;
@@ -349,13 +349,17 @@ section#header {
   color: white;
 }
 
-#project-header {
+#projects-header {
   padding-bottom: 0.2rem;
   padding-top: 0.2rem;
+
+  h1 {
+      color: rgb(205, 0, 96);
+  }
 }
 
-#project-header h1 {
-  color: rgb(205, 0, 96);
+.project-header {
+  text-align: right;
 }
 
 section#project-list {
