@@ -300,6 +300,7 @@ section#header {
   display: inline-block;
   margin-right: 1.5rem;
   margin-top: 1.0rem;
+
 }
 
 .sponsor {
@@ -416,6 +417,11 @@ section#project-list {
 
 #sponsors h1 {
   color: rgba(126,0,205,0.93);
+}
+
+#sponsors-header {
+  background-color: rgba(126,0,205,0.93);
+  color: white;
 }
 
 #footer {
