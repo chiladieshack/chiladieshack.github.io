@@ -124,6 +124,10 @@ th, td {
   width: 50%;
 }
 
+td {
+  color: #333;
+}
+
 p + h1,
 p + h2,
 p + h3,
@@ -290,10 +294,16 @@ section#header {
   width: 55%;
   height: auto;
   margin: auto;
+}
 
-  @media (min-width: 38rem){
-    // padding: 5rem 1rem;
-  }
+.small-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7%;
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-top: 1.0rem;
 }
 
 .sponsor {
@@ -325,6 +335,8 @@ section#header {
     font-size: 0.8em;
     text-align: center;
     border: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
 
 #about {
@@ -350,11 +362,12 @@ section#header {
 }
 
 #projects-header {
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
+  padding-bottom: 2.2rem;
+  padding-top: 2.2rem;
+  background-color: rgb(205, 0, 96);
 
   h1 {
-      color: rgb(205, 0, 96);
+      color: white;
   }
 }
 
@@ -368,6 +381,10 @@ section#project-list {
   background-color: white;
   color: rgb(205, 0, 96);
 
+  a {
+    color: #333;
+  }
+
 }
 
 #project-list h1, a {
@@ -375,7 +392,8 @@ section#project-list {
 }
 
 #project-list a:hover {
-  color: #00CDCD;
+  // color: #00CDCD;
+  color: #cd0060;
 }
 
 .project-title {
@@ -416,6 +434,11 @@ section#project-list {
   @media(max-width: 800px) {
     height: 4rem;
     padding-top: 1.5rem;
+  }
+
+  a {
+    color: white;
+    font-weight: bold;
   }
 }
 
