@@ -124,10 +124,6 @@ th, td {
   width: 50%;
 }
 
-td {
-  color: #333;
-}
-
 p + h1,
 p + h2,
 p + h3,
@@ -378,8 +374,8 @@ section#project-list {
   background-color: white;
   color: rgb(205, 0, 96);
 
-  a {
-    color: #333;
+  td, a {
+    color: #454444;
   }
 
 }
@@ -419,7 +415,6 @@ section#project-list {
 }
 
 #sponsors h1 {
-  // color: rgba(92, 195, 74, 0.85);
   color: rgba(126,0,205,0.93);
 }
 
@@ -495,104 +490,6 @@ p .footer-text{
 
 .scrolloff {
        pointer-events: none;
-}
-
-.masthead {
-
-  &-title {
-    font-weight: 300;
-
-    a {
-      color: #00CDCD;
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
-    }
-
-    span {
-      color: #ddd;
-    }
-
-  }
-
-  &-title--small {
-    margin-bottom: .75rem;
-    font-size: .75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-
-    a {
-      color: #00CDCD;
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
-    }
-  }
-
-  .masthead-nav {
-    margin-bottom: 2rem;
-
-    a {
-      color: #aaa;
-      font-weight: 300;
-      text-transform: lowercase;
-      -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
-
-      &:hover,
-      &:focus {
-        color: #00CDCD;
-        text-decoration: none;
-      }
-
-      + a {
-        margin-left: .25rem;
-      }
-    }
-  }
-
-}
-
-.page {
-  &-title {
-    margin-bottom: 2rem;
-  }
-}
-
-.post {
-  &-title {
-    margin-bottom: .25rem;
-  }
-  &-date {
-    margin-bottom: 2rem;
-    font-size: .75rem;
-    text-transform: uppercase;
-  }
-}
-
-.list {
-  &-post-title {
-    margin-bottom: .25rem;
-
-    a {
-      color: #00CDCD;
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
-    }
-  }
-  &-post-date {
-    margin-bottom: 1rem;
-    font-size: .75rem;
-    text-transform: uppercase;
-  }
 }
 
 .projects-list {
