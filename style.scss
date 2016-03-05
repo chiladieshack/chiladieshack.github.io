@@ -307,7 +307,7 @@ section#header {
 }
 
 .sponsor {
-  width: 35%;
+  width: 27%;
   height: auto;
   margin: auto;
   display: inline;
@@ -418,8 +418,13 @@ section#project-list {
   color: rgba(92, 195, 74, 0.85);
 }
 
-#sponsors h1 {
-  color: rgba(126,0,205,0.93);
+#sponsors {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  
+  h1 {
+    color: rgba(126,0,205,0.93);
+  }
 }
 
 #sponsors-header {
