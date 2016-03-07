@@ -349,11 +349,36 @@ section#header {
 }
 
 #about a {
-  // color: rgba(126, 0, 205, 0.93);
   color: white;
   &:hover{
     color: rgba(126, 0, 205, 0.93);
   }
+}
+
+#schedule-header {
+  background-color: #00CDCD;
+  color: white;
+}
+
+#schedule-content {
+  h2, h3 {
+    background-color: rgba(92,195,74,0.85);
+    margin-bottom: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+  max-width: 78rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color: white;
+  color: rgba(69, 68, 68, 0.68);
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 #projects {
@@ -389,7 +414,6 @@ section#project-list {
 }
 
 #project-list a:hover {
-  // color: #00CDCD;
   color: #cd0060;
 }
 
@@ -421,7 +445,7 @@ section#project-list {
 #sponsors {
   padding-left: 0rem;
   padding-right: 0rem;
-  
+
   h1 {
     color: rgba(126,0,205,0.93);
   }
