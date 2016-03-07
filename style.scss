@@ -475,6 +475,32 @@ section#header {
   color: white;
 }
 
+#faq-header {
+  background-color: #cd0060;
+}
+
+#faq-content {
+
+  p {
+    margin: 0rem;
+  }
+
+  .question {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .id {
+    font-weight: bold;
+    color: #cd0060;
+  }
+}
+
 #footer {
   background-color: rgba(92, 195, 74, 0.85);
   weight: bold;
