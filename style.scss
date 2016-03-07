@@ -397,29 +397,48 @@ section#header {
   text-align: right;
 }
 
-section#project-list {
+#project-list {
   padding-left: 6em;
   padding-right: 6rem;
   background-color: white;
   color: rgb(205, 0, 96);
 
   td, a {
-    color: #454444;
+    color: rgba(69,68,68,0.68);
   }
 
-}
+  h1, a:hover {
+    color: rgb(205, 0, 96);
+  }
 
-#project-list h1, a {
-  color: rgb(205, 0, 96);
-}
+  @media(max-width: 800px) {
+    padding-left: 0em;
+    padding-right: 0rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 
-#project-list a:hover {
-  color: #cd0060;
+    td {
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 500px) {
+    table {
+      border-collapse: collapse;
+    }
+    tr {
+      border-bottom: 1px solid rgba(69,68,68,0.5);
+    }
+  }
 }
 
 .project-title {
   font-size: 1.5rem;
   text-align: right;
+
+  @media(max-width: 800px) {
+    font-size: 1rem;
+  }
 }
 
 #map {
