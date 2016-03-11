@@ -500,6 +500,46 @@ section#header {
   }
 }
 
+#organizers-header {
+  background-color: rgba(92, 195, 74, 0.85);
+}
+
+#organizers-content {
+}
+
+.organizer {
+  text-align: left;
+  padding: 1rem;
+}
+
+.organizer-bio {
+
+}
+
+.organizer-photo {
+  height: 100%;
+  height: auto;
+  margin: auto;
+  display: inline;
+  float: left;
+
+  @media (max-width: 1000px) {
+    width: 11rem;
+    height: auto;
+    margin: auto;
+    display: inline;
+    padding: 2rem;
+  }
+
+  @media (max-width: 800px) {
+    width: 10rem;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+  }
+}
+
 #footer {
   background-color: rgba(92, 195, 74, 0.85);
   weight: bold;
