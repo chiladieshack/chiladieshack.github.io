@@ -510,18 +510,24 @@ section#header {
 .organizer {
   text-align: left;
   padding: 1rem;
+  overflow: auto;
 }
 
 .organizer-bio {
-
+  float: right;
+  width: 80%;
+  font-size: 0.85rem;
 }
 
 .organizer-photo {
-  height: 100%;
+  width: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
   height: auto;
   margin: auto;
   display: inline;
   float: left;
+  border-radius: 50%;
 
   @media (max-width: 1000px) {
     width: 11rem;
@@ -538,6 +544,12 @@ section#header {
     display: block;
     padding: 1rem;
   }
+}
+
+.organizer-name {
+  font-weight: bold;
+  color: #00CDCD;
+  font-size: 1rem;
 }
 
 #footer {
