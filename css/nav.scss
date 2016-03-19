@@ -1,0 +1,14 @@
+---
+---
+
+#navbar {
+    text-transform: uppercase;
+    text-align: center;
+    border: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+}
