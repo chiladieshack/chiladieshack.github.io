@@ -336,6 +336,10 @@ section#header {
     border: 0;
     padding-left: 0rem;
     padding-right: 0rem;
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
 }
 
 #about {
@@ -572,7 +576,7 @@ img.organizer-photo {
 #footer {
   background-color: rgba(92, 195, 74, 0.85);
   weight: bold;
-  height: 1rem;
+  height: 6rem;
 
   @media(max-width: 800px) {
     height: 4rem;
@@ -586,14 +590,23 @@ img.organizer-photo {
 }
 
 .footer-text {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   color: white;
-}
+  padding-bottom: 0.5rem;
 
-p .footer-text{
   @media(max-width: 400px) {
     margin: 0;
   }
+}
+
+#footer span {
+  font-size: 0.8rem;
+}
+
+.footer-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
 }
 
 
@@ -624,6 +637,13 @@ p .footer-text{
   border-bottom: 4px solid transparent;
   color: #00CDCD;
   font-weight: bold;
+
+  @media(max-width: 700px) {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+  }
 }
 
 .google-maps {
