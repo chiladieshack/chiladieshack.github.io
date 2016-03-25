@@ -329,10 +329,22 @@ section#header {
 
 #schedule-content {
   h2, h3 {
-    background-color: rgba(92,195,74,0.85);
+    // background-color: rgba(92,195,74,0.85);
     margin-bottom: 0rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    text-align: left;
+    color: rgba(92,195,74,0.85);
+  }
+
+  h3 {
+    border-bottom: 10px solid rgba(92,195,74,0.85);
+  }
+
+  h4 {
+    padding: none;
+    font-weight: bold;
+    color: rgba(69,68,68,0.68);
   }
 }
 
@@ -341,11 +353,15 @@ section#header {
   width: 100%;
   max-width: 78rem;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   background-color: white;
   color: rgba(69, 68, 68, 0.68);
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+
+  p {
+    border-bottom: 1px solid rgba(92,195,74,0.85);
+  }
 }
 
 #map {
